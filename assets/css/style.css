@@ -246,6 +246,7 @@
  .project-details {
      height: 100px;
      width: 100%;
+     background-color: #00bcd4;
 
  }
 
@@ -258,6 +259,7 @@
      font-size: 20px;
      margin-top: 5px;
      margin-bottom: 10px;
+     text-shadow: 1px 1px .5px black;
 
  }
 
@@ -317,7 +319,7 @@
  /* footer end */
  /* media query 446 mobile */
 
- @media (max-width:426px) {
+ @media (max-width:427px) {
      .logo-section h2 {
          font-size: 18px;
          font-weight: 700;
@@ -352,9 +354,9 @@
 
  }
 
- @media (max-width:768px) {
+ /* @media (max-width:768px) {
     .project-section .project-list {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 30px;
     }
- }
+ } */
